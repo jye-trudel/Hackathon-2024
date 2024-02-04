@@ -15,6 +15,10 @@ public class docList<T extends Doctor>{
         }
     }
 
+    public ArrayList<T> returnDoctors(){
+        return doctors;
+    }
+
     public T removeDoc(T doctor)
     {
         if(doctors.contains(doctor))

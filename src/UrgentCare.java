@@ -1,8 +1,7 @@
-public class NormalCare extends Patient{
-    public NormalCare(String name, String injury, int age, boolean isDead, String priority) {
+public class UrgentCare extends Patient{
+    public UrgentCare(String name, String injury, int age, boolean isDead, String priority) {
         super(name, injury, age, isDead, priority);
     }
-
     @Override
     public int compareTo(Patient patient)
     {
